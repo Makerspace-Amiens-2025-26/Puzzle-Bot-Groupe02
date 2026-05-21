@@ -1,25 +1,26 @@
-# Template-project
+# Projet Puzzle Bot - Groupe 2
 
-Template pour la création d'un repo type projet pour le MakerSpace. Doc gérée via le thème [Just-The-Docs](https://just-the-docs.com) en vanilla.
+Bienvenue sur le dépôt officiel de notre projet de 3ème année à **UniLaSalle Amiens**. 
 
-## Bienvenue sur Notre Projet
+## À propos du projet
 
-Ce repository est le cœur de notre projet. Ici, vous trouverez toutes les ressources nécessaires pour comprendre, utiliser et contribuer à notre projet.
+Dans le cadre de notre cursus scolaire, notre groupe a pour ambition de concevoir et de fabriquer (presque de A à Z) un robot capable de résoudre un puzzle de manière totalement autonome. 
 
-### Contenu du Repository
+Ce projet pluridisciplinaire fait appel à la vision par ordinateur, à l'algorithmique et à la robotique (mécanique et électronique) pour identifier les pièces, calculer leur emplacement et les positionner correctement.
 
-- **Documentation :** Toutes les documentations techniques et guides d'utilisation sont disponibles dans le dossier `docs`. Voir le site de doc associé. 
-- **project :** Toutes les sources de notre projet.
+## Fonctionnalités clés 
 
-### Comment Utiliser ce Repository ?
+*   **Reconnaissance d'image :** Détection et analyse de la forme et des motifs des pièces du puzzle via une caméra.
+*   **Algorithme de résolution :** Calcul de la position et de l'orientation exactes de chaque pièce.
+*   **Manipulation physique :** Déplacement et assemblage des pièces grâce à un système cartésien X-Y-Z.
 
-- Pour commencer, consultez la documentation dans le dossier `docs`.
-- Si vous souhaitez contribuer au projet, veuillez lire nos directives de contribution.
 
 ## Contribution
 
-Nous accueillons et apprécions toute contribution. Si vous souhaitez contribuer, veuillez consulter notre guide de contribution pour connaître nos attentes et notre processus.
-
-## Contact
-
-Si vous avez des questions ou des suggestions, n'hésitez pas à nous contacter.
+**Alexandra CAUDRON**
+**Mohamed Zack RIDHOI** 
+**Matteo BERNARDES**
+**Thibaut DARRES**
+**Mathis BACKLER**
+**Pierre JACQ**
+**Charles LOMBARD**
