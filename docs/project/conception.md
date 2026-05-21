@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 
+nav_order: 2
 title: Conception et prototypage
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 
+nav_order: 4
 title: Partie numérique
 ---
 
