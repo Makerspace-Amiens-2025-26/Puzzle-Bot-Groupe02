@@ -1,6 +1,7 @@
 ---
 layout: default
 nav_order: 3
+parent: Le projet
 title: Partie électronique 
 ---
 
