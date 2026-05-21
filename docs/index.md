@@ -24,7 +24,7 @@ Nous avions pour but de concevoir de A à Z une machine qui se doit d'être capa
 
 ## Poster
 
-Ici vous publierez le poster de votre projet.
+Voici le poster de notre projet !
 
 ![Poster projet](images/poster.jpg)
 
