@@ -14,10 +14,6 @@ Bienvenue dans la documentation du projet puzzlebot. Ce site a pour but de fourn
 
 <iframe height="600" width="100%" src="https://modelembedder.net/embed?did=3a3b2489e53195ec15c856c9&wvm=v&wvmid=75df847c1ed7131f5c659d33&eid=673e636d781b8f8fb3797142&elementType=ASSEMBLY" frameborder="0"></iframe>
 
-{: .warning }
->Pour intégrer la visualisation de votre projet Onshape, utilisez le site https://modelembedder.net . Activez le partage par lien via l'outil de partage de Onshape. n'oubliez pas d'activer l'option "export". Puis completez l'iframe ci-dessus avec le lien généré par le site https://modelembedder.net. Vous pouvez mettre à jour également le bouton avec le lien de partage de votre modèle.
-
-
 ## À propos du Projet
 
 Nous avions pour but de concevoir de A à Z une machine qui se doit d'être capable de résoudre un puzzle en autonomie. Pour réaliser ce projet, nous avions 75 heures.
