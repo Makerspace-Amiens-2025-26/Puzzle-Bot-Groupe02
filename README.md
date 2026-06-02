@@ -18,7 +18,7 @@ Ce projet pluridisciplinaire fait appel à la vision par ordinateur, à l'algori
 ## Contribution
 
 **Alexandra CAUDRON**
-**Mohamed Zack RIDHOI** 
+**Mohamed Zaky RIDHOI** 
 **Matteo BERNARDES**
 **Thibaut DARRES**
 **Mathis BACKLER**
