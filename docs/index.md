@@ -22,19 +22,5 @@ Nous avions pour but de concevoir de A à Z une machine qui se doit d'être capa
 
 Voici le poster de notre projet !
 
-![Poster projet](images/poster.jpg)
+![Poster projet](images/PUZZLE BOT.pdf)
 
-## Vidéo
-
-Ici vous publierez la vidéo de votre projet. 
-- 1min30 au format vertical
-- Présentation du projet 
-- Des explication du fonctionnement du projet
-- Des vues du projet / Prototype / Application etc... 
-- Des plans du fonctionnement (même basique ou des éléments séparés)
-- Une conclusion
-- Si en stockage local : <50mo
-
-<video src="images/intro_amiens.mp4" controls title="Title"  style="width: 100%;"></video>
-
----
