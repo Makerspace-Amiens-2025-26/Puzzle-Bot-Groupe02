@@ -4,4 +4,12 @@ title: Le projet
 nav_order: 3
 has_children: true
 ---
+# Bienvenue sur le projet
 
+Pour mener à bien notre projet, nous avons divisé notre travail en plusieurs sections clés. Vous pouvez explorer chaque domaine en détail en suivant les liens ci-dessous :
+
+* **[Conception mécanique](conception.md)**
+* **[Électronique et connectique](electronique.md)**
+* **[Programmation et numérique](numerique.md)**
+
+À travers ces différentes parties, vous découvrirez en détail le "pourquoi" et le "comment" de notre démarche : les raisons qui nous ont poussés à imaginer cette machine, les étapes de sa création, ainsi que les principes techniques qui lui permettent de fonctionner.

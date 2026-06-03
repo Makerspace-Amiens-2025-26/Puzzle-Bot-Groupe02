@@ -6,7 +6,3 @@ permalink: Le projet
 ---
 
 
-
-
-# Les ressources du
-t

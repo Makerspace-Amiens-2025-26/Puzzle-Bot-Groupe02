@@ -7,4 +7,18 @@ title: Conception et prototypage
 
 # Conception et prototypage
 
-Nous étions 4 à s'occuper de la partie conception et prototypage de notre projet, cette partie consiste principalement à imaginer, modéliser, imprimer et assembler les pièces afin de produire la structure qui va supporter l'électronique.
+Pour la partie conception, nous avons divisé le travail en plusieurs étapes :
+
+- La structure générale du système.
+- L'axe X, l'axe Y et l'axe Z (pour les déplacements linéaires).
+- L'axe R (pour la rotation).
+- Et enfin, l'intégration complète du système de caméra.
+
+## La structure générale du système.
+
+## L'axe X, l'axe Y et l'axe Z (pour les déplacements linéaires).
+
+## L'axe R (pour la rotation).
+
+##  Et enfin, l'intégration complète du système de caméra.
+

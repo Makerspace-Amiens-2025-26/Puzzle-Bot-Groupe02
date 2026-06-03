@@ -7,3 +7,4 @@ Pour mener à bien la création de votre machine, il va falloir suivre attentive
 ##  Etape 1
 
 
+⚠️ La machine est en constante évolution pour vous offrir sa meilleure version. Encore un tout petit peu de patience... après cela, vous ne pourrez plus vous en passer ! ⚠️
