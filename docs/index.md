@@ -16,7 +16,7 @@ Bienvenue dans la documentation du projet puzzlebot. Ce site a pour but de fourn
 
 ## À propos du Projet
 
-Nous avions pour but de concevoir de A à Z une machine qui se doit d'être capable de résoudre un puzzle en autonomie. Pour réaliser ce projet, nous avions 75 heures.
+Afin de concevoir une machine de A à Z qui se doit d'être capable de résoudre un puzzle en autonomie. Nous disposions de 75 heures de prévu dans nos emplois du temps.
 
 ## Poster
 
