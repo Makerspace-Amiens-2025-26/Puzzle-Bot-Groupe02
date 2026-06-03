@@ -2,6 +2,8 @@
 layout: default
 title: Le projet
 nav_order: 3
+has_children: true
+has_toc: false
 ---
 # Bienvenue sur le projet
 
