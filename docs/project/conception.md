@@ -7,18 +7,49 @@ title: Conception et prototypage
 
 # Conception et prototypage
 
-Pour la partie conception, nous avons divisé le travail en plusieurs étapes :
+La phase de conception mécanique a été pensée de manière modulaire afin de faciliter l'étude, l'assemblage et les futures évolutions du système. Nous avons divisé le développement de la machine en plusieurs étapes clés :
 
-- La structure générale du système.
-- L'axe X, l'axe Y et l'axe Z (pour les déplacements linéaires).
-- L'axe R (pour la rotation).
-- Et enfin, l'intégration complète du système de caméra.
+1. **La structure générale du système** (le châssis et la base).
+2. **Les déplacements linéaires** (les axes X, Y et Z).
+3. **Le système rotatif** (l'axe R).
+4. **La chaîne de vision** (l'intégration de la caméra).
 
-## La structure générale du système.
+---
 
-## L'axe X, l'axe Y et l'axe Z (pour les déplacements linéaires).
+## 1. La structure générale du système
 
-## L'axe R (pour la rotation).
+Pour la structure de base, notre objectif était d'améliorer considérablement la rigidité et la modularité par rapport au modèle d'origine. 
 
-##  Et enfin, l'intégration complète du système de caméra.
+Nous avons modifié le plateau initial, qui ne permettait pas de fixer facilement des composants standardisés. Ce nouveau plateau a été redessiné afin d'y intégrer des **profilés en aluminium rainurés**. Ces profilés nous permettent de lier solidement les différents éléments du châssis entre eux tout en offrant une grande flexibilité pour ajuster la position des composants mécaniques ou ajouter des accessoires par la suite.
+
+---
+
+## 2. Les axes X, Y et Z (Déplacements linéaires)
+
+Cette section détaille la cinématique linéaire de la machine, qui permet de positionner l'outil ou le capteur avec précision dans l'espace tridimensionnel :
+
+* **Axe X (Transversal) :** Cet axe assure le déplacement de gauche à droite. Il repose sur un guidage linéaire précis pour supporter le poids des modules embarqués sans fléchissement.
+* **Axe Y (Longitudinal) :** Cet axe gère le mouvement d'avant en arrière, déplaçant soit le plateau, soit l'ensemble du portique selon l'architecture retenue, assurant la stabilité de la trajectoire.
+* **Axe Z (Vertical) :** Indispensable pour la gestion de la hauteur ou de la profondeur, cet axe permet de monter et descendre la tête de la machine afin de s'adapter aux différentes dimensions des pièces cibles.
+
+Chacun de ces axes est entraîné par des moteurs pas-à-pas couplés à des systèmes de transmission (courroies crantées ou vis sans fin) garantissant une répétabilité optimale du mouvement.
+
+---
+
+## 3. L'axe R (Rotation)
+
+En plus des mouvements linéaires classiques, la machine intègre un axe de rotation baptisé **Axe R**. 
+
+Cet axe offre un degré de liberté supplémentaire en permettant de faire pivoter la tête ou le support de pièce. Il est particulièrement crucial pour réorienter l'outil (ou le capteur) sous différents angles, ouvrant la voie à des tâches plus complexes qui nécessitent un alignement angulaire parfait ou un suivi de trajectoires courbes.
+
+---
+
+## 4. Intégration complète du système de caméra
+
+La dernière étape de la conception concerne la partie "vision" de la machine. 
+
+Nous avons conçu un support dédié et sur mesure pour accueillir le module caméra. L'intégration logicielle et mécanique de cette caméra permet à la machine d'interagir intelligemment avec son environnement (par exemple pour de la reconnaissance de formes, du contrôle qualité ou du guidage optique). Sa position a été minutieusement calculée pour optimiser le champ de vision tout en évitant les collisions avec les autres axes en mouvement (X, Y, Z, R).
+
+
+<iframe height="600" width="100%" src="https://modelembedder.net/embed?did=3a3b2489e53195ec15c856c9&wvm=v&wvmid=fcd319f8f9de18a88cd7e1be&eid=673e636d781b8f8fb3797142&elementType=ASSEMBLY" frameborder="0"></iframe>
 
