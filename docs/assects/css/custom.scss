@@ -1,8 +1,44 @@
-SCSS
----
----
-@import "./support/support";
+.side-bar {
+    background: #111827;
+}
 
-// Tes modifications de design ici :
-$link-color: #efef14;  // Change le violet des liens par du bleu
-$brand-color: #d4ff00; // Change le violet des boutons par du bleu
+.site-title {
+    color: white;
+}
+
+.nav-list-link {
+    color: #cbd5e1;
+}
+
+.nav-list-link:hover {
+    color: #60a5fa;
+}
+
+.btn-primary {
+    background: #2563eb;
+}
+
+.btn {
+    border-radius: 15px;
+    padding: 12px 24px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.main-content {
+    max-width: 1400px;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 20px;
+}
