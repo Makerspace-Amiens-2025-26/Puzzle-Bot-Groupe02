@@ -22,5 +22,5 @@ Nous avions pour but de concevoir de A à Z une machine qui se doit d'être capa
 
 Voici le poster de notre projet !
 
-![Poster projet](images/PUZZLE BOT.pdf)
+![Poster projet](images/PosterG2.jpg)
 

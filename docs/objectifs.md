@@ -1,25 +1,48 @@
 ---
 layout: default
-nav_order: 3
+nav_order: 2
 title: Objectifs du projet
 ---
 
-# Introduction
+# Projet Puzzle Bot
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+Le projet Puzzle Bot consiste à concevoir et fabriquer, en totale autonomie, une machine robotisée capable de résoudre un puzzle. 
+
+Ce défi de 75 heures impose une véritable démarche d'ingénierie, articulée autour de la conception 3D (OnShape), de la programmation (Arduino et vision par ordinateur) et de la fabrication numérique (MakerSpace).
+
+---
 
 ## Contexte du Projet
 
-Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+Réalisé dans le cadre de la première année du cycle ingénieur, ce projet marque la transition entre la découverte technique et l'ingénierie rigoureuse.
 
-## Objectifs du Projet
+* **L'Enjeu :** Passer d'une logique d'exploration à une démarche d'ingénierie structurée et documentée.
+* **L'Objectif :** Concevoir, assembler et programmer en 75 heures une machine autonome en partant d'une feuille blanche.
+* **L'Équipe :** Travail collaboratif en équipe de 7 étudiants, avec une répartition par binômes de compétences.
+* **L'Interdisciplinarité :** 
+    * Mécanique : Modélisation et CAO intégrale sur OnShape.
+    * Électronique : Pilotage via Arduino et CNC Shield (moteurs pas à pas et servomoteurs).
+    * Fabrication : Prototypage et impression 3D au MakerSpace.
+    * Vision : Traitement d'image pour l'identification des pièces.
 
-Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.
+---
 
-# Existant
+## Objectifs de la Phase Actuelle (Jalons 25h)
 
-Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
+* **Initialisation du GitHub :** Mise en place du dépôt et de la documentation d'équipe.
+* **Validation du POC (Proof of Concept) :** Démonstration de la viabilité technique des premières briques du projet.
+* **Finalisation de la CAO :** Validation de l'assemblage 3D complet sur OnShape.
+* **Soutenance Technique :** Présentation de l'état d'avancement et justification des choix technologiques.
 
-# Cahier des Charges
+---
 
-Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus.
+## Cahier des Charges
+
+| Axe | Spécifications Techniques et Contraintes |
+| :--- | :--- |
+| **Mission principale** | Trier, manipuler et assembler les pièces d'un puzzle sans plan prédéfini. |
+| **Contrôle & Actionneurs** | Carte Arduino couplée à un CNC Shield pour le pilotage des moteurs pas à pas et des servomoteurs. |
+| **Vision par ordinateur** | Intégration d'un système de vision pour identifier la forme et l'orientation des pièces. |
+| **Conception & Fabrication** | Modélisation 3D complète sur OnShape et fabrication des pièces par impression 3D. |
+| **Précision requise** | Alignement et calibration rigoureux pour garantir un assemblage fonctionnel. |
+| **Gestion de projet** | Temps imparti de 75 heures avec documentation continue (choix techniques, rôles par binôme). |
