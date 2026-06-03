@@ -8,7 +8,7 @@ title: Objectifs du projet
 
 Le projet Puzzle Bot consiste à concevoir et fabriquer, en totale autonomie, une machine robotisée capable de résoudre un puzzle. 
 
-Ce défi de 75 heures impose une véritable démarche d'ingénierie, articulée autour de la conception 3D (OnShape), de la programmation (Arduino et vision par ordinateur) et de la fabrication numérique (MakerSpace).
+Ce défi de 75 heures impose une véritable démarche d'ingénierie, articulée autour de la conception 3D (OnShape), de la programmation (Arduino et CVision par ordinateur) et de la fabrication numérique (MakerSpace).
 
 ---
 
@@ -27,7 +27,7 @@ Réalisé dans le cadre de la première année du cycle ingénieur, ce projet ma
 
 ---
 
-## Objectifs de la Phase Actuelle (Jalons 25h)
+## Objectifs de la Première Phase (Jalons 25h)
 
 * **Initialisation du GitHub :** Mise en place du dépôt et de la documentation d'équipe.
 * **Validation du POC (Proof of Concept) :** Démonstration de la viabilité technique des premières briques du projet.
