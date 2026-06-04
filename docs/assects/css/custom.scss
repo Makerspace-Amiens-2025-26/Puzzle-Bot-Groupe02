@@ -1,44 +1,20 @@
-.side-bar {
-    background: #111827;
-}
+---
+---
+---
+---
+@import "./support/support";
+@import "./custom/setup";
 
-.site-title {
-    color: white;
-}
 
-.nav-list-link {
-    color: #cbd5e1;
-}
+// --- Tes variables de couleurs personnalisées ---
+$body-background-color: #0b0f19; // Fond très sombre (bleu nuit)
+$sidebar-color: #0d1321;           // Fond de la barre latérale
+$body-text-color: #e2e8f0;       // Couleur du texte principal
+$link-color: #00d2ff;            // Bleu néon/cyan pour les liens et boutons
 
-.nav-list-link:hover {
-    color: #60a5fa;
-}
-
-.btn-primary {
-    background: #2563eb;
-}
-
-.btn {
-    border-radius: 15px;
-    padding: 12px 24px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    transform: translateY(-2px);
-}
-
-.main-content {
-    max-width: 1400px;
-}
-
-img {
-    border-radius: 20px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-}
-
-.hero img {
-    width: 100%;
-    border-radius: 20px;
+// --- Intégration dans le thème ---
+:root {
+  --body-background-color: #{$body-background-color};
+  --sidebar-color: #{$sidebar-color};
+  --body-text-color: #{$body-text-color};
 }
