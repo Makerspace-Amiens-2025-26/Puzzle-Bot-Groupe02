@@ -1,5 +1,5 @@
-title: Doc Projet
-description: Documentation du projet
+title: Puzzle Bot
+description: Documentation du groupe 2
 
 
 # NE RIEN MODIFIER CI-DESSOUS SI VOUS N'ETES PAS CERTAINS DE CE QUE VOUS FAITES
@@ -11,6 +11,6 @@ url: https://github.com/Makerspace-Amiens
 
 # Paramètres optionnels de "Just the Docs"
 just_the_docs:
-  navigation_depth: 5
+  navigation_depth: 2
   search_enabled: true
   search_indexing: true
