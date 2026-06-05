@@ -41,10 +41,3 @@ Voici la vidéo de notre projet !
 **Charles LOMBARD**
 
 
-
-
-
-
-
-etat de l'art 
-presentaion equipe

@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Etapes de fabrication
-nav_order: 6
-has_children: true
+title: Avoir
+parent: Etapes de fabrication
+nav_order: 4
 ---
-
 # Étapes de Fabrication
 
 Bienvenue dans la section dédiée aux étapes de fabrication du projet XYZ. Ici, vous trouverez des guides détaillés pour chaque étape du processus de fabrication.
