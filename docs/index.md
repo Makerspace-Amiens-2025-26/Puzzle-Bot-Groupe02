@@ -24,3 +24,27 @@ Voici le poster de notre projet !
 
 ![Poster projet](images/PosterG2.jpg)
 
+## Vidéo
+
+Voici la vidéo de notre projet !
+
+
+
+## Contribution
+
+**Alexandra CAUDRON**
+**Mohamed Zaky RIDHOI** 
+**Matteo BERNARDES**
+**Thibaut DARRES**
+**Mathis BACKLER**
+**Pierre JACQ**
+**Charles LOMBARD**
+
+
+
+
+
+
+
+etat de l'art 
+presentaion equipe
