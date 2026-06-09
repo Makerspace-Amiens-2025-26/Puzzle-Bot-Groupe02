@@ -30,14 +30,4 @@ Voici la vidéo de notre projet !
 
 
 
-## Contribution
-
-**Alexandra CAUDRON**
-**Mohamed Zaky RIDHOI** 
-**Matteo BERNARDES**
-**Thibaut DARRES**
-**Mathis BACKLER**
-**Pierre JACQ**
-**Charles LOMBARD**
-
 
