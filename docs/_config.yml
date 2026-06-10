@@ -1,6 +1,5 @@
 title: Puzzle Bot
 description: Documentation du groupe 2
-logo: "/doc/images/Puzzleg.gif"
 
 # NE RIEN MODIFIER CI-DESSOUS SI VOUS N'ETES PAS CERTAINS DE CE QUE VOUS FAITES
 
@@ -14,3 +13,5 @@ just_the_docs:
   navigation_depth: 5
   search_enabled: true
   search_indexing: true
+
+color_scheme: dark
