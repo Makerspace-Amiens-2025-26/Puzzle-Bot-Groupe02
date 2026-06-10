@@ -4,6 +4,21 @@ nav_order: 2
 title: Présentation de l'equipe
 ---
 
+# Présentation de l'équipe
+
+![Alexandra](/images/PhotoP/alexandra.jpg)
+**Alexandra CAUDRON**
+
+![Mohamed](/images/PhotoP/test.png)
+**Mohamed Zaky RIDHOI**
+
+![Matteo](/images/PhotoP/matteo.jpg)
+**Matteo BERNARDES**
+
+![Thibaut](/images/PhotoP/thibaut.jpg)
+**Thibaut DARRE**
+
+
 
 
 
