@@ -10,7 +10,6 @@ Le projet Puzzle Bot consiste à concevoir et fabriquer, en totale autonomie, un
 
 Ce défi de 75 heures impose une véritable démarche d'ingénierie, articulée autour de la conception 3D (OnShape), de la programmation (Arduino et CVision par ordinateur) et de la fabrication numérique (MakerSpace).
 
----
 
 ## Contexte du Projet
 
@@ -25,7 +24,7 @@ Réalisé dans le cadre de la première année du cycle ingénieur, ce projet ma
     * Fabrication : Prototypage et impression 3D au MakerSpace.
     * Vision : Traitement d'image pour l'identification des pièces.
 
----
+
 
 ## Objectifs de la Première Phase (Jalons 25h)
 
@@ -34,7 +33,6 @@ Réalisé dans le cadre de la première année du cycle ingénieur, ce projet ma
 * **Finalisation de la CAO :** Validation de l'assemblage 3D complet sur OnShape.
 * **Soutenance Technique :** Présentation de l'état d'avancement et justification des choix technologiques.
 
----
 
 ## Cahier des Charges
 
