@@ -6,19 +6,9 @@ title: Présentation de l'equipe
 
 # Présentation de l'équipe
 
-![Alexandra](/images/PhotoP/alexandra.jpg)
-**Alexandra CAUDRON**
+![Alexandra](/images/PhotoP/alexandra.jpg) ; ![Mohamed](/images/PhotoP/test.png); ![Matteo](/images/PhotoP/matteo.jpg) ; ![Thibaut](/images/PhotoP/thibaut.jpg)
 
-![Mohamed](/images/PhotoP/test.png)
-**Mohamed Zaky RIDHOI**
-
-![Matteo](/images/PhotoP/matteo.jpg)
-**Matteo BERNARDES**
-
-![Thibaut](/images/PhotoP/thibaut.jpg)
-**Thibaut DARRE**
-
-
+**Alexandra CAUDRON** ; **Mohamed Zaky RIDHOI** ; **Matteo BERNARDES** ; **Thibaut DARRE**
 
 
 
