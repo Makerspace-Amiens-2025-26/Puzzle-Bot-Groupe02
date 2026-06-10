@@ -9,10 +9,10 @@ title: Présentation de l'equipe
 
 # Présentation de l'équipe
 
-|![Alexandra](/images/alexandra.jpg)| ![Mohamed](/images/test.png)|  ![Matteo](/images/matteo.jpg)|  ![Thibaut](/images/thibaut.jpg) |
- |**Alexandra CAUDRON** | **Mohamed Zaky RIDHOI** | **Matteo BERNARDES** | **Thibaut DARRE** | 
+| ![Alexandra](/images/PhotoP/alexandra.jpg) | ![Mohamed](/images/PhotoP/test.png) | ![Matteo](/images/PhotoP/matteo.jpg) | ![Thibaut](/images/PhotoP/thibaut.jpg) |
+| **Alexandra CAUDRON** | **Mohamed Zaky RIDHOI** | **Matteo BERNARDES** | **Thibaut DARRE** | 
 
-| ![Mathis](/images/mathis.jpg) | ![Pierre](/images/pierre.jpg) | ![Charles](/images/charles.jpg) |
+| ![Mathis](/images/PhotoP/mathis.jpg) | ![Pierre](/images/PhotoP/pierre.jpg) | ![Charles](/images/PhotoP/charles.jpg) |
 | **Mathis BACKLER** | **Pierre JACQ** | **Charles LOMBARD** |
 
 Nous sommes tous les sept étudiants à UniLaSalle Amiens en 3e année d’études d’ingénierie. Durant cette année, nous devons réaliser un projet de groupe.
