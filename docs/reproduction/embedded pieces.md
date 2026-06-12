@@ -21,3 +21,20 @@ nav_order: 5
     </div>
 </model-viewer>
 
+<model-viewer src="PUMP - PUMP.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+</model-viewer>
+
+<model-viewer src="17HE12-1204S - 17HE12-1204S.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+</model-viewer>
