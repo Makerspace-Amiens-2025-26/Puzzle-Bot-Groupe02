@@ -53,3 +53,13 @@ title: Test 3D
         View in your space
     </button>
 </model-viewer>
+
+<model-viewer src="images/3d/Axe Z.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+</model-viewer>
+
