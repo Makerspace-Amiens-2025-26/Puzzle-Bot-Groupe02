@@ -8,13 +8,13 @@ title: Présentation de l'equipe
 
 # Présentation de l'équipe
 
-| ![Alexandra](../images/PhotoP/alexandra.png) | ![Mohamed](../images/PhotoP/mohamed.png) | ![Matteo](../images/PhotoP/matteo.png) | ![Thibaut](../images/PhotoP/thibaut.png) |
+| ![Alexandra](../images/PhotoP/alexandra.png) | ![Mohamed](../images/PhotoP/mohamed.png) | ![Charles](../images/PhotoP/charles.png) | ![Thibaut](../images/PhotoP/thibaut.png) |
 | :---: | :---: | :---: | :---: |
-| **Alexandra CAUDRON** | **Mohamed Zaky RIDHOI** | **Matteo BERNARDES** | **Thibaut DARRE** | 
+| **Alexandra CAUDRON** | **Mohamed Zaky RIDHOI** | **Charles LOMBARD** | **Thibaut DARRE** | 
 
-| ![Mathis](../images/PhotoP/mathis.png) | ![Pierre](../images/PhotoP/pierre.png) | ![Charles](../images/PhotoP/charles.png) |
+| ![Mathis](../images/PhotoP/mathis.png) | ![Pierre](../images/PhotoP/pierre.png) | ![Matteo](../images/PhotoP/matteo.png) |
 | :---: | :---: | :---: |
-| **Mathis BACKLER** | **Pierre JACQ** | **Charles LOMBARD** |
+| **Mathis BACKLER** | **Pierre JACQ** | **Matteo BERNARDES** |
 
 Nous sommes tous les sept étudiants à UniLaSalle Amiens en 3e année d’études d’ingénierie. Durant cette année, nous devons réaliser un projet de groupe.
 
