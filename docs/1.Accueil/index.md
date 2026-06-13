@@ -22,12 +22,12 @@ Afin de concevoir une machine de A à Z qui se doit d'être capable de résoudre
 
 Voici le poster de notre projet !
 
-![Poster projet](images/poster/PosterG2.jpg)
+![Poster projet](../images/poster/PosterG2.jpg)
 
 ## Vidéo
 
 Voici la vidéo de notre projet !
 
-![Video projet](images/Vidéo/Videog2f.mp4)
+![Video projet](../images/Vidéo/Videog2f.mp4)
 
 
