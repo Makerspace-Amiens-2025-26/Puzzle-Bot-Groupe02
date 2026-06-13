@@ -28,4 +28,4 @@ Voici le poster de notre projet !
 
 Voici la vidéo de notre projet !
 
-![video](../images/Vidéo/Videog2f.mp4)
+[Notre Vidéo](https://youtube.com/shorts/4GoBYXqBUgQ){: .btn .btn-red }

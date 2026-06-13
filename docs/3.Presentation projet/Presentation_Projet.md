@@ -42,5 +42,5 @@ Réalisé dans le cadre de la première année du cycle ingénieur, ce projet ma
 | **Contrôle & Actionneurs** | Carte Arduino couplée à un CNC Shield pour le pilotage des moteurs pas à pas et des servomoteurs. |
 | **Vision par ordinateur** | Intégration d'un système de vision pour identifier la forme et l'orientation des pièces. |
 | **Conception & Fabrication** | Modélisation 3D complète sur OnShape et fabrication des pièces par impression 3D. |
-| **Précision requise** | Alignement et calibration rigoureux pour garantir un assemblage fonctionnel. |
+| **Précision requise** | Alignement et calibrage rigoureux pour garantir un assemblage fonctionnel. |
 | **Gestion de projet** | Temps imparti de 75 heures avec documentation continue (choix techniques, rôles par binôme). |
