@@ -22,8 +22,7 @@ Pour parvenir à un choix optimal et justifié, notre équipe suit rigoureusemen
 
 ​Pour répondre aux exigences de dynamique et de précision de la machine, le système intègre un total de cinq moteurs, répartis stratégiquement selon les contraintes de charge et de mouvement de chaque axe.
 
-## Double motorisation synchronisée pour l'axe X
-​
+## Double motorisation synchronisée pour l'axe X​
 
 Le déplacement longitudinal de l’axe X repose sur deux profilés aluminium parallèles. Pour actionner cet ensemble, nous avons fait le choix d’utiliser deux moteurs pas-à-pas fonctionnant de manière parfaitement synchronisée.
 ​La justification est simple, l'utilisation d'un seul moteur aurait entraîné un risque important de point dur ou de blocage mécanique lors des déplacements. En motorisant chaque côté, nous garantissons que les deux extrémités avancent à la même vitesse, éliminant ces problèmes.
