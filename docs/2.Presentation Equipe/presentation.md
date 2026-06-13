@@ -8,11 +8,11 @@ title: Présentation de l'equipe
 
 # Présentation de l'équipe
 
-| ![Alexandra](../images/PhotoP/alexandra.jpg) | ![Mohamed](../images/PhotoP/mohamed.jpg) | ![Matteo](../images/PhotoP/matteo.jpg) | ![Thibaut](../images/PhotoP/thibaut.jpg) |
+| ![Alexandra](../images/PhotoP/alexandra.png) | ![Mohamed](../images/PhotoP/mohamed.png) | ![Matteo](../images/PhotoP/matteo.png) | ![Thibaut](../images/PhotoP/thibaut.png) |
 | :---: | :---: | :---: | :---: |
 | **Alexandra CAUDRON** | **Mohamed Zaky RIDHOI** | **Matteo BERNARDES** | **Thibaut DARRE** | 
 
-| ![Mathis](../images/PhotoP/mathis.jpg) | ![Pierre](../images/PhotoP/pierre.jpg) | ![Charles](../images/PhotoP/charles.jpg) |
+| ![Mathis](../images/PhotoP/mathis.png) | ![Pierre](../images/PhotoP/pierre.png) | ![Charles](../images/PhotoP/charles.png) |
 | :---: | :---: | :---: |
 | **Mathis BACKLER** | **Pierre JACQ** | **Charles LOMBARD** |
 
