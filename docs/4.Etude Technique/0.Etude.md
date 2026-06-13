@@ -18,7 +18,7 @@ Tout au long de ce projet, plusieurs dilemmes techniques apparaîtront pour dét
 
 Pour parvenir à un choix optimal et justifié, notre équipe suit rigoureusement un processus en **trois étapes** :
 
-## Choix de la motorisation
+# Choix de la motorisation
 
 ​Pour répondre aux exigences de dynamique et de précision de la machine, le système intègre un total de cinq moteurs, répartis stratégiquement selon les contraintes de charge et de mouvement de chaque axe.
 
