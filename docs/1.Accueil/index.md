@@ -28,7 +28,4 @@ Voici le poster de notre projet !
 
 Voici la vidéo de notre projet !
 
-<video width="100%" controls>
-  <source src="../images/Vidéo/Videog2f.mp4" type="video/mp4">
-  Votre navigateur ne prend pas en charge la lecture de cette vidéo.
-</video>
+![video](../images/Vidéo/Videog2f.mp4)
