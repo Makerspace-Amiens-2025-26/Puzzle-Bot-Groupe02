@@ -19,12 +19,12 @@ Nous sommes tous les sept étudiants à UniLaSalle Amiens en 3e année d’étud
 
 ### Tableau des compétences
 
-| | **Programmation** | **Modélisation** | **Mécanique** | **Programation** |  
+| | **Conception** | **Electronique** | **Programation** | **Github** |  **Modelisation** |  **Communication** |  
 | :--- | :---: | :---: | :---: |
-|**Alexandra CAUDRON**|0|0|0|0|
-|**Mohamed Zaky RIDHOI** |0|0|0|0|
-|**Matteo BERNARDES**|0|0|0|0|
-|**Thibaut DARRES**|0|0|0|0|
-|**Mathis BACKLER**|0|0|0|0|
-|**Pierre JACQ**|0|0|0|0|
-|**Charles LOMBARD**|0|0|0|0|
+|**Alexandra CAUDRON**|2|4|4|1|2|3|
+|**Mohamed RIDHOI** |3|4|1|0|3|2|
+|**Matteo BERNARDES**|3|2|1|1|4|4|
+|**Thibaut DARRE**|3|1|1|0|4|3|
+|**Mathis BACKLER**|3|1|0|0|2|4|
+|**Pierre JACQ**|1|2|3|3|2|1|
+|**Charles LOMBARD**|3|1|2|2|4|3|
