@@ -28,4 +28,4 @@ Voici le poster de notre projet !
 
 Voici la vidéo de notre projet !
 
-![Video](../images/vidéo/videog2f.mp4)
+![Video](../images/video/videog2f.mp4)
