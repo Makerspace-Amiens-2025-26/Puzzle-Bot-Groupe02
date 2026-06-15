@@ -28,4 +28,4 @@ Voici le poster de notre projet !
 
 Voici la vidéo de notre projet !
 
-<video controls src="../images/video/video_projet.mp4" controls title="Title"  style="width: 100%;"></video>
+<video controls src="images/video/video_projet.mp4" controls title="Title"  style="width: 100%;"></video>
