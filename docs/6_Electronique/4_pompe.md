@@ -10,12 +10,16 @@ title: La pompe
 Au début du projet, la commande de la pompe à vide et de l’électrovanne devait être réalisée à l’aide d’un module L9110, couramment utilisé pour piloter de petites charges en courant continu. Cependant, après plusieurs essais, cette solution ne s’est pas révélée satisfaisante pour notre application. En effet, le L9110 présente une chute de tension interne qui réduit la tension réellement disponible aux bornes des actionneurs. La pompe à vide et l’électrovanne ne recevaient donc pas la totalité des 12 V nécessaires à leur fonctionnement optimal, ce qui limitait leurs performances et leur efficacité.
 
 | ![l9110](../images/electronique/l9110.png) | ![customcard](../images/electronique/custumcard2.png) | ![customcard](../images/electronique/CUSTUMcard.png)
+| **L9110** | **Customcard Recto** | **Customcard Verso** |
+| :---: | :---: | :---: |
 
 
 Face à cette contrainte, nous avons décidé de concevoir une carte de commande dédiée utilisant des MOSFET de puissance. Cette solution permet de commuter directement l’alimentation 12 V avec des pertes très faibles, garantissant ainsi que la pompe et l’électrovanne reçoivent la tension nécessaire à leur fonctionnement. La réalisation de cette carte personnalisée a donc permis d’obtenir une commande plus efficace, plus fiable et mieux adaptée aux exigences du système d’aspiration du Puzzle Bot.
 
 # Les MOSFET de puissance
-![mosfet](../images/electronique/mosftet.jpg)
+| ![mosfet](../images/electronique/mosftet.jpg) | 
+| **MOSFET AO3400A** |
+| :---: |
 Les MOSFET constituent les composants principaux du circuit de commande de la pompe à vide et de l’électrovanne. Leur rôle est de servir d’interrupteurs électroniques capables de commuter une charge alimentée en 12 V à partir d’un signal de commande provenant de l’Arduino en 5 V. Cette solution permet de piloter des actionneurs consommant davantage de courant que ce que les sorties numériques de l’Arduino peuvent fournir directement.
 
 Les MOSFET sont utilisés en mode saturation, c’est-à-dire qu’ils sont soit totalement bloqués, soit totalement passants. Lorsque la tension appliquée sur leur grille atteint environ 5 V grâce à une sortie numérique de l’Arduino, ils présentent une très faible résistance interne entre le drain et la source. Le courant peut alors circuler librement vers la pompe ou l’électrovanne, ce qui limite les pertes de puissance et l’échauffement des composants.
@@ -42,7 +46,7 @@ Grâce à cette protection, les MOSFET et l’Arduino sont préservés des pics 
 
 
 # La pompe à vide
-##### pompe
+
 La pompe à vide est l’élément responsable de la création de la dépression nécessaire au fonctionnement de la ventouse. Lorsqu’elle est alimentée, elle aspire l’air présent dans le circuit pneumatique, ce qui génère une pression inférieure à la pression atmosphérique à l’intérieur de la ventouse.
 
 Cette différence de pression permet à la ventouse d’adhérer à la surface d’une pièce de puzzle. Une fois la pièce saisie, la pompe maintient la dépression afin de conserver une force d’aspiration suffisante pendant toute la durée du déplacement du robot.
@@ -51,7 +55,10 @@ Le choix d’une pompe électrique commandée électroniquement permet une inté
 
 
 # L’électrovanne
-#### electrovane
+| ![electronvanne](../images/electronique/mini-electrovanne-a-air-5v.jpg) | 
+| **Électrovanne** |
+| :---: |
+
 L’électrovanne intervient lors de la phase de relâchement de la pièce. Il s’agit d’un dispositif électromécanique permettant de contrôler le passage de l’air dans le circuit pneumatique à l’aide d’une bobine commandée électriquement.
 
 
@@ -70,7 +77,8 @@ L’Arduino désactive la pompe puis active l’électrovanne. L’air extérieu
 
 # Conception assistée par ordinateur avec KiCad
 
-
+| ![gerber](../images/electronique/GERBER.png) | 
+| :---: |
 
 
 La conception électronique du circuit a été réalisée à l’aide du logiciel KiCad, un outil libre et professionnel dédié à la conception de cartes électroniques. La première étape a consisté à réaliser le schéma électrique en représentant l’ensemble des composants et leurs interconnexions.
