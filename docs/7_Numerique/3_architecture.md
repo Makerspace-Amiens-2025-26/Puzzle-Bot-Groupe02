@@ -15,25 +15,8 @@ L'objectif n'était pas encore de développer chaque module en détail, mais plu
 Cette réflexion a permis de découper le projet en plusieurs briques indépendantes, chacune ayant un rôle précis. 
 
 Le fonctionnement global imaginé est le suivant : 
-```
-Caméra 
-   ↓ 
-OpenCV 
-   ↓ 
-Détection ArUco 
-   ↓ 
-Calcul position + orientation 
-   ↓ 
-Algorithme de résolution du puzzle 
-   ↓ 
-Génération du G-code 
-   ↓ 
-Envoi via Serial 
-   ↓ 
-GRBL (Arduino) 
-   ↓ 
-Moteurs 
-```:---:
+  ![Numerique3](../images/Numerique/numerique3.png)
+
 
 ## 1. Acquisition de l'image (caméra) 
 

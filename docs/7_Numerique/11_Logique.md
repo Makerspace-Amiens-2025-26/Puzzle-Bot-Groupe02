@@ -58,4 +58,6 @@ Remonter l'axe Z
 Réinitialiser le servomoteur 
  
 
- 
+  ![Numerique2](../images/Numerique/numerique2.png)
+
+  ![Numerique4](../images/Numerique/numerique4.png)
