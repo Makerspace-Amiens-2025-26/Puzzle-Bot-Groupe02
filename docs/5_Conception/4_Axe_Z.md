@@ -25,7 +25,7 @@ Cette pièce possède un espace pour fixer le servo moteur de l'Axe R ainsi que 
 
 | ![AxeY3](../images/Conception/image1.png) | ![AxeZ4](../images/Conception/image2.png) | ![AxeZ4](../images/Conception/image3.png) | ![AxeZ4](../images/Conception/image4.png) |
 | :---: | :---: | :---: | :---: |
-| **Gallet** | **Rondelle** | **Pièce central** | **Le support servo/pompe** |
+| **Galet** | **Rondelle** | **Pièce central** | **Le support servo/pompe** |
 
 
 
