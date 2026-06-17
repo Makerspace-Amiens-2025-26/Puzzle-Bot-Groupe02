@@ -28,24 +28,25 @@ Cette pièce possède un espace pour fixer le servo moteur de l'Axe R ainsi que 
 | **Ancrage de courroie** | **Fin de profilé** |
 
 
-Contrainte de conception : Pour des raisons de modularité, de facilité d'impression 3D et de maintenance, la plaque principale du chariot opposé a été divisée en trois composants distincts assemblés ensemble, formant un unique bloc fonctionnel compact.
+## 3. Spécification de la pièce maîtresse 
 
-## 2. Spécification de la pièce maîtresse 
+Pour éviter de concevoir un monobloc massif et complexe, l'ensemble a été segmenté en un sous-assemblage de plusieurs pièces imprimées en 3D et vissées entre elles :
 
-Pour éviter de concevoir un bloc monobloc massif et complexe, l'ensemble a été segmenté en un sous-assemblage de trois pièces imprimées en 3D et vissées entre elles :
+* Maintien du profilé : Il assure la liaison entre le profilé et le reste de la machine. Il vient se fixer au chariot de l'Axe Y afin de permettre la mobilité de l'Axe.
+De plus, il vient par 3 points d'ancrage maintenir le profilé pour garantir un parallélisme entre ce dernier et la pièce ainsi que la perpendicularité avec le plateau.
 
-* Le module Chariot : Il assure la liaison glissière sur les axes horizontaux et sert de base structurelle rigide pour maintenir le profilé d'aluminium vertical de guidage.
+* Support Moteur : Fixé directement sur la pièce qui maintient le profilé, il est conçu spécifiquement pour accueillir le moteur pas-à-pas de cet axe. On y a ajouter des points d'ancrage sur les côtés, ce qui nous a permis de modéliser et fabriquer des pièces qui maintiennent les câbles.
 
-* Le module Support Moteur : Fixé directement sur le module chariot, il est conçu spécifiquement pour accueillir et brider le moteur pas-à-pas de cet axe.
+* Support carte Électronique : Une extension dédiée à la fixation et à la protection de la carte électronique de commande de la pompe.
 
-* Le module Électronique : Une extension dédiée à la fixation et à la protection de la carte électronique de commande de la pompe.
+* Pièce de fin de profilé : Cette pièce vient se mettre en bas du profilé de l'Axe Z. Elle contient un léger renfoncement permettant à la pièce de s'aligner correctement avec le profilé, un trou de passage au centre pour la fixer et un trou oblong laissant à la poulie une marge afin de permettre un serrage optimal de la courroie.
 
 | ![AxeY5](../images/Conception/AxeZ5.png) | ![AxeZ6](../images/Conception/AxeZ6.png) | ![AxeZ7](../images/Conception/AxeZ7.png) |
 | :---: | :---: | :---: |
-| **module Support Moteur** | **Module Chariot** | **Module Électronique** |
+| **Support Moteur** | **Maintien du profilé** | **Support carte Électronique** |
 
 
-## 3. Résultat sur l'assemblage global
+## 4. Résultat sur l'assemblage global
 
 Cette conception modulaire en trois pièces solidaires offre un excellent compromis technique. Elle permet d'imprimer beaucoup plus facilement les composants en 3D (en évitant des formes complexes nécessitant trop de supports d'impression) tout en offrant la possibilité de démonter ou de modifier uniquement la partie moteur ou la partie électronique lors de la maintenance. L'intégration finale regroupe proprement toute l'intelligence et le guidage vertical de l'axe Z sur un seul bloc mobile.
 
