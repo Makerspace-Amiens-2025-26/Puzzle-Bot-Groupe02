@@ -51,6 +51,6 @@ une intégration mécanique simple sur le chariot vertical.
 Cette solution est particulièrement adaptée aux mouvements de rotation nécessitant un positionnement angulaire précis.
 
 
-| ![etude 4 ](../images/etude/ETU4.png) | ![etude 5 ](../images/etude/ETU5.png) |
-| **Moteur pas à pas** | **Servo moteur** |
+| ![etude 4 ](../images/etude/ETU4.png) | ![etude 5 ](../images/etude/Servomoteur.png) |
 | :---: | :---: |
+| **Moteur pas à pas** | **Servo moteur** |

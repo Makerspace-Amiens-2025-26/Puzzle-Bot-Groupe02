@@ -58,8 +58,9 @@ Le choix d’une pompe électrique commandée électroniquement permet une inté
 
 # L’électrovanne
 
-| :---: |
+
 | ![electronvanne](../images/electronique/mini-electrovanne-a-air-5v.jpg) |
+| :---: |
 | **Électrovanne** |
 
 
