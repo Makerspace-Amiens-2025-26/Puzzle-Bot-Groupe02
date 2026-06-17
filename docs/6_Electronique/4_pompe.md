@@ -84,7 +84,7 @@ L’Arduino désactive la pompe puis active l’électrovanne. L’air extérieu
 # Conception assistée par ordinateur avec KiCad
 
 | ![gerber](../images/electronique/GERBER.png) | 
-| :---: |
+
 
 
 La conception électronique du circuit a été réalisée à l’aide du logiciel KiCad, un outil libre et professionnel dédié à la conception de cartes électroniques. La première étape a consisté à réaliser le schéma électrique en représentant l’ensemble des composants et leurs interconnexions.
