@@ -12,22 +12,20 @@ title: Le Plateau
 ## 1. Matériel initiale
 Au début du projet, la structure de base du plateau était composée de :
 
-* Un panneau de bois central.
+* Un plateau de bois central de 45*45 cm².
 
-* Un cadre en profilés d'aluminium entourant le panneau pour assurer la rigidité.
+* Un cadre de 4 profilés d'aluminium de 42 cm entourant le plateau pour assurer la rigidité.
 
 * Quatre coins imprimés en 3D , dont le rôle unique était de lier et de maintenir l'équerrage des profilés d'aluminium horizontaux.
 
 Limitation : Cette configuration initiale ne permettait pas de prolonger la structure vers le haut. Pour faire évoluer la machine, il manquait des points d'ancrage verticaux solidement liés au châssis bas.
 
 ## 2. Évolution de la conception
-Pour répondre au besoin d'élever la structure, les pièces d'angle ont été entièrement reconçues .
+Pour répondre au besoin d'élever la structure, les pièces d'angle ont été entièrement reconçues. Après plusieurs versions de prototypes, nous sommes parvenus a une solution permettant de fixer un profilé supplémentaire vertical.
 
- Cette nouvelle version intègre une double fonction :
+* Deux points d'ancrage latéraux en équerre permettant que la colonne montante soit parfaitement a 90°.
 
-* Fonction d'assemblage horizontal : Elle conserve le maintien du cadre en profilés d'aluminium du plateau bas.
-
-* Fonction de guidage et fixation verticale : L'ajout d'un montant en équerre sur la partie supérieure permet de venir y glisser et visser des profilés en hauteur.
+* Un point d'ancrage central qui permet d'assurer que les 4 profilés verticaux forment un cadre parfaitement droit.
 
 | ![Plateau2](../images/Conception/Plateau2.png) | ![Plateau3](../images/Conception/Plateau3.png) |
 | :---: | :---: |
