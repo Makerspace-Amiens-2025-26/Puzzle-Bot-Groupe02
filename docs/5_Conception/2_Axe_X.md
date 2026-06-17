@@ -21,13 +21,14 @@ Contrainte de conception : Contrairement au plateau inférieur où les quatre co
 
 Pour répondre aux besoins de mouvements de la machine, deux versions de coins supérieurs ont été conçues :
 
-* Version de renvoi / passive : * Fonction d'assemblage : Assure la liaison rigide entre le montant vertical et le profilé horizontal.
+* Version de renvoi / passive : 
+    * Fonction d'assemblage : Assure la liaison rigide entre le montant vertical et le profilé horizontal.
 
     * Fonction de tension : Intègre à son extrémité un support en laiton et une poulie crantée pour guider et maintenir la tension de la courroie.
 
-* Version motorisée / active : * Fonction d'entraînement : Reçoit le moteur pas-à-pas chargé de mouvoir l'axe mécanique.
-
-    *Fonction de sécurité / calibration : Supporte un capteur de fin de course (micro-interrupteur) pour permettre la prise de référence (Homing) de la machine.
+* Version motorisée / active : 
+    * Fonction d'entraînement : Reçoit le moteur pas-à-pas chargé de mouvoir l'axe mécanique.
+    * Fonction de sécurité / calibration : Supporte un capteur de fin de course (micro-interrupteur) pour permettre la prise de référence (Homing) de la machine.
 
 | ![AxeX3](../images/Conception/AxeX3.png) | ![AxeX4](../images/Conception/AxeX4.png) | ![AxeX2](../images/Conception/AxeX2.png) |
 | :---: | :---: | :---: |

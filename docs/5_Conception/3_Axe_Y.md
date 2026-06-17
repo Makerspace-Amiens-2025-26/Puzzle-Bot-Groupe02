@@ -28,16 +28,18 @@ Contrainte de conception : Pour l'assemblage intérieur qui maintient le profil�
 
 Pour répondre à cette contrainte, deux versions de chariots imprimés en 3D ont été conçues :
 
-* Le chariot passif  : * Fonction de guidage et liaison : Il intègre les trous pour le bloc de 3 roues et la gorge pour emboîter et fixer solidement le profilé d'aluminium transversal reliant les deux côtés.
+* Le chariot passif  : 
+    * Fonction de guidage et liaison : Il intègre les trous pour le bloc de 3 roues et la gorge pour emboîter et fixer solidement le profilé d'aluminium transversal reliant les deux côtés.
 
 | ![AxeY4](../images/Conception/AxeY3.png) | ![AxeY4](../images/Conception/AxeY4.png) |
 | :---: | :---: |
 | **Chariot Intéreur** | **Chariot Extérieur** |
 
 
-* Le chariot actif / motorisé (AxeY2.png et AxeY6.png) : * Fonction de liaison : Il maintient également le profilé transversal de l'axe Y.
+* Le chariot actif / motorisé (AxeY2.png et AxeY6.png) : 
+    * Fonction de liaison : Il maintient également le profilé transversal de l'axe Y.
 
-    *Fonction de motorisation et détection : L'ajout d'une platine et d'un logement spécifique permet d'accueillir le moteur pas-à-pas de l'axe Y ainsi que son capteur de fin de course pour stopper la course en toute sécurité.
+    * Fonction de motorisation et détection : L'ajout d'une platine et d'un logement spécifique permet d'accueillir le moteur pas-à-pas de l'axe Y ainsi que son capteur de fin de course pour stopper la course en toute sécurité.
 
     | ![AxeY4](../images/Conception/AxeY2.png) | ![AxeY4](../images/Conception/AxeY4.png) |
     | :---: | :---: |

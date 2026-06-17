@@ -12,7 +12,7 @@ Pour assurer l'ancrage de la structure de la caméra à la base de la machine, d
 
 * Le support sur profilé : Un premier pied vient se glisser et se fixer directement dans la rainure du profilé d'aluminium entourant le plateau.
 
-* Le support en jambe de force : À l'opposé, pour des raisons d'encombrement ou de rigidité, le second pied est conçu sous forme de jambe de force venant se visser directement sur le panneau en bois du plateau central.
+* La jambe de force : Pour des raisons d’encombrement et de rigidité, la jambe de force est fixée directement sur le plateau en bois. Cette conception permet de renforcer la structure tout en limitant l’espace occupé.
 
 | ![Camera3](../images/Conception/Camera3.png) | ![Camera4](../images/Conception/Camera4.png) |
 | :---: | :---: |
