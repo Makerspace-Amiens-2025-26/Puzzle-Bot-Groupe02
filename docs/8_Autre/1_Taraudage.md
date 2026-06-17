@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 1
-parent: Études et choix techniques
+parent: Autre
 title: Taraudage d’un profilé en aluminium
 ---
 
@@ -26,7 +26,7 @@ Avant de commencer le taraudage, il est recommandé d’appliquer de l’huile d
 
 ## Étape 4 : Premier passage de taraud
 
-![Taraudage](../images/Conception/Taraudage.png)
+![Taraudage](../images/Conception/Taraudage.jpeg)
 
 Le taraudage débute avec le premier taraud, appelé taraud ébaucheur. Plus fin que les suivants, il permet d’amorcer le filetage dans le trou.
 
@@ -47,3 +47,5 @@ Comme lors des étapes précédentes, il convient de poursuivre les mouvements d
 ## Résultat attendu
 
 À l’issue de l’opération, le profilé en aluminium dispose d’un filetage propre et fonctionnel permettant le montage sécurisé de la vis correspondante. Une vérification finale peut être réalisée en vissant la vis afin de s’assurer de la qualité du taraudage.
+
+![Taraudage](../images/Conception/Taraude2.png)

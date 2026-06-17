@@ -10,7 +10,7 @@ title: Présentation de l'equipe
 
 | ![Alexandra](../images/PhotoP/alexandra.png) | ![Mohamed](../images/PhotoP/mohamed.png) | ![Charles](../images/PhotoP/charles.png) | ![Thibaut](../images/PhotoP/thibaut.png) |
 | :---: | :---: | :---: | :---: |
-| **Alexandra CAUDRON** | **Mohamed Zaky RIDHOI** | **Charles LOMBARD** | **Thibaut DARRE** | 
+| **Alexandra CAUDRON** | **Mohamed Zaky RIDHOI** | **Charles LOMBARD** | **Thibault DARRE** | ²
 
 | ![Mathis](../images/PhotoP/mathis.png) | ![Pierre](../images/PhotoP/pierre.png) | ![Matteo](../images/PhotoP/matteo.png) |
 | :---: | :---: | :---: |
@@ -23,7 +23,7 @@ Nous sommes tous les sept étudiants à UniLaSalle Amiens en 3e année d’étud
 
 | | **Conception** | **Electronique** | **Programation** | **Github** |  **Modelisation** |  **Communication** |  
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-|**Alexandra CAUDRON**|2|4|4|1|2|3|
+|**Alexandra CAUDRON**|2|4|4|0|2|3|
 |**Mohamed RIDHOI** |3|4|1|0|3|2|
 |**Matteo BERNARDES**|3|2|1|1|4|4|
 |**Thibaut DARRE**|3|1|1|0|4|3|
