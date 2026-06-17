@@ -21,7 +21,7 @@ Cette section décrit la composition matérielle du robot et la nature des signa
 Le robot utilise deux types de motorisations radicalement différentes, ce qui a nécessité une adaptation des branchements :
 
 * **Les axes linéaires (X, Y, Z) - Moteurs pas à pas (NEMA 17) :**
-    * *Principe :* Ces moteurs divisent une rotation complète en un grand nombre de "pas" (généralement 200 pas par tour, soit $1.8^\circ$ par pas).
+    * *Principe :* Ces moteurs divisent une rotation complète en un grand nombre de "pas" (généralement 200 pas par tour, soit 1.8° par pas).
     * *Commande :* Le CNC Shield leur envoie deux signaux numériques : **STEP** (une impulsion électrique = un pas) et **DIR** (0 ou 5V pour définir le sens de rotation antihoraire ou horaire).
 
 * **L'axe de rotation de la tête - Servomoteur PWM :**
