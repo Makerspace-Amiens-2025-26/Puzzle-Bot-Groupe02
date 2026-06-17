@@ -36,8 +36,9 @@ Une fois les positions enregistrées, le programme compare pour chaque pièce :
 * son orientation attendue. 
 
 Pour chaque pièce, le programme génère une séquence complète de type Pick-and-Place avec correction d'orientation. 
-  | :---: |
+  
   | Pick and Place |
+  | :---: |
   | ![Numerique2](../images/Numerique/numerique2.png) |
 
   ![Numerique4](../images/Numerique/numerique4.png)

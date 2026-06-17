@@ -8,7 +8,7 @@ title: Visserie
 
 # Visserie M5 et M3
 
-## **Visserie M5 et fixation aux profilés**
+## Visserie M5 et fixation aux profilés
 
 Nous avons favorisé le diamètre M5 pour l'ensemble des fixations de pièces que nous avons créées. Ce choix garantit une robustesse mécanique et une excellente tenue face aux forces exercées lors des mouvements de la machine.
 
@@ -21,7 +21,7 @@ Facilité de montage : Ces écrous s'insèrent directement par le dessus de la r
 Fixation des poulies crantées : Pour le montage et le serrage des poulies sur les profilés, le diamètre M5 a également été choisi pour sa solidité. Afin de supporter les forces dues à la tension de la courroie, nous avons conçu une pièce carrée en impression 3D. Cette pièce d'interface permet de répartir uniformément les efforts de tension sur la vis, garantissant que celle-ci reste parfaitement droite et alignée, évitant ainsi tout phénomène de flexion ou de désaxage de la poulie.
 
 
-## **Utilisation de vis M3**
+## Utilisation de vis M3
 
 L'utilisation du diamètre M3 a été exclusivement réservée aux emplacements où les inserts et les filetages étaient imposés d'origine sur le matériel initial que nous avons reçu, ou par la géométrie du support existant :
 
