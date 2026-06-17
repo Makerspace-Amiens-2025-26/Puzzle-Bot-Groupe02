@@ -11,13 +11,17 @@ title: Axe Z
 
 ## 1. Configuration de base de l'axe Z
 
-L'axe Z est conçu pour supporter et guider le déplacement vertical du bloc outil. Sa structure mécanique repose sur un chariot mobile principal et intègre les éléments suivants :
+L'axe Z est conçu pour supporter et guider le déplacement vertical du bloc outil. Sa structure mécanique repose sur un chariot mobile principal et une pièce maitresse fixée sur le chariot de l'Axe Y qui maintient le profilé et le moteur de l'Axe Z.
 
-* Un système d'ancrage de courroie : D'un côté, le chariot conserve la même géométrie extérieure éprouvée sur les autres axes afin de venir pincer fermement la courroie de transmission pour le mouvement vertical.
+## 2. Le chariot
 
-* Un profilé vertical fixe : Le chariot principal supporte et bride un profilé d'aluminium vertical. Ce profilé ne bouge pas par rapport au chariot ; il fait office de colonne de guidage fixe sur laquelle viendra coulisser le prochain chariot dédié au mécanisme de rotation.
+* Nous avons conçu une première pièce centrale à cet axe, elle contient le même système d'ancrage de la courroie que les autres axes, elle permet de fixer la pièce qui accueille le servo et la pompe et elle nous permet de tenir les galets.
 
-* Une pièce de fin de profilé : Un composant spécifique est installé à l'extrémité supérieure pour fermer le profilé, rigidifier l'ensemble et permettre, si nécessaire, la fixation d'un autre profilé structurel.
+* Les galets et les rondelles: Cette partie du chariot nous assure un déplacement fluide le long du profilé. Contrairement aux autres axes, celle-ci contient un chariot qui ne vient pas entourer le profilé par 2 pièces. Les gallets et les rondelles à base carré viennent alors se fixer à l'aide d'une vis qui les traverse pour venir les accrocher à la pièce principale du chariot.
+La base carré des rondelles va se mettre du coté de la pièce afin que les forces mécaniques soient compensé afin d'éviter le desaxage des gallets.
+
+* Le support servo/pompe: Cette pièce vient s'installer sur la pièce centrale du chariot par 2 vis qui nous assure que les pièces soient bien fixées entre elles et droites.
+Cette pièce possède un espace pour fixer le servo moteur de l'Axe R ainsi que l'emplacement dédié à la pompe qui vient s'y glisser. La disposition de ces emplacements est très importante, elle permet à la camera de pouvoir identifier le plus grand espace possible sur le plateau.
 
 | ![AxeY3](../images/Conception/AxeZ3.png) | ![AxeZ4](../images/Conception/AxeZ4.png) |
 | :---: | :---: |
