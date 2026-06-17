@@ -7,7 +7,7 @@ title: Axe Z
 
 # Conception de l'Axe Z
 
-![image5](../images/Conception/image5.png)
+ | ![AxeZ2](../images/Conception/AxeZ2.png) | ![image5](../images/Conception/image5.png) |
 
 ## 1. Configuration de base de l'axe Z
 
@@ -44,8 +44,9 @@ De plus, il vient par 3 points d'ancrage maintenir le profilé pour garantir un 
 * Pièce de fin de profilé : Cette pièce vient se mettre en bas du profilé de l'Axe Z. Elle contient un léger renfoncement permettant à la pièce de s'aligner correctement avec le profilé, un trou de passage au centre pour la fixer et un trou oblong laissant à la poulie une marge afin de permettre un serrage optimal de la courroie.
 
 | ![AxeY5](../images/Conception/AxeZ5.png) | ![AxeZ6](../images/Conception/AxeZ6.png) | ![AxeZ7](../images/Conception/AxeZ7.png) |
-| :---: | :---: | :---: |
-| **Support Moteur** | **Maintien du profilé** | **Support carte Électronique** |
+![AxeZ4](../images/Conception/AxeZ4.png) |
+| :---: | :---: | :---: | :---: |
+| **Support Moteur** | **Maintien du profilé** | **Support carte Électronique** | **Fin de profilé** |
 
 
 ## 4. Résultat sur l'assemblage global
