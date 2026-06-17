@@ -36,7 +36,7 @@ Pour répondre à cette contrainte, deux versions de chariots imprimés en 3D on
 | **Chariot Intéreur** | **Chariot Extérieur** |
 
 
-* Le chariot actif / motorisé (AxeY2.png et AxeY6.png) : 
+* Le chariot actif / motorisé : 
     * Fonction de liaison : Il maintient également le profilé transversal de l'axe Y.
 
     * Fonction de motorisation et détection : L'ajout d'une platine et d'un logement spécifique permet d'accueillir le moteur pas-à-pas de l'axe Y ainsi que son capteur de fin de course pour stopper la course en toute sécurité.
@@ -50,5 +50,5 @@ Pour répondre à cette contrainte, deux versions de chariots imprimés en 3D on
 
 ## 3. Résultat sur l'assemblage global
 
-Cette conception en vis-à-vis permet de créer un pont roulant rigide et parfaitement synchronisé. En intégrant directement le support moteur, le capteur et la fixation du profilé sur une seule pièce imprimée (AxeY6.png), l'encombrement est minimal et l'alignement des roues de guidage sur les profilés de l'axe X reste optimal tout au long du déplacement.
+Cette conception en vis-à-vis permet de créer un pont roulant rigide et parfaitement synchronisé. En intégrant directement le support moteur, le capteur et la fixation du profilé sur une seule pièce imprimée, l'encombrement est minimal et l'alignement des roues de guidage sur les profilés de l'axe X reste optimal tout au long du déplacement.
 ![AxeY1](../images/Conception/AxeY1.png)
