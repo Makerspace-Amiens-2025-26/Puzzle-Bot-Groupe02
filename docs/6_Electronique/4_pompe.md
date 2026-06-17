@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 1
+nav_order: 4
 parent: Electronique
 title: La pompe
 ---
@@ -86,4 +86,4 @@ L’intégration du circuit de commande a été réalisée en tenant compte de l
 
 Les signaux de commande des MOSFET ont été raccordés aux broches de la CNC Shield correspondant aux sorties numériques de l’Arduino. Cette solution simplifie le câblage et permet de conserver une architecture modulaire compatible avec le reste du système de contrôle du robot.
 
-Grâce à cette intégration, le logiciel embarqué sur l’Arduino peut commander directement la pompe à vide et l’électrovanne en fonction des différentes étapes du processus d’assemblage. Le système d’aspiration devient ainsi entièrement synchronisé avec les mouvements du Puzzle Bot, assurant une manipulation automatique, précise et fiable des pièces de p
+Grâce à cette intégration, le logiciel embarqué sur l’Arduino peut commander directement la pompe à vide et l’électrovanne en fonction des différentes étapes du processus d’assemblage. Le système d’aspiration devient ainsi entièrement synchronisé avec les mouvements du Puzzle Bot, assurant une manipulation automatique, précise et fiable des pièces du puzzle.
