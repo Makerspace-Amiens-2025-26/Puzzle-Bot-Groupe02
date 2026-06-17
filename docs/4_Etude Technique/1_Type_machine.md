@@ -1,10 +1,16 @@
-## 3. Étude et choix techniques
+---
+layout: default
+nav_order: 1
+parent: Études et choix techniques
+title: Choix de la typologie de la machine
+---
 
-### 3.1. Choix de la typologie de la machine
+
+## Choix de la typologie de la machine
 
 Dans le cadre du développement de notre projet, le choix de l’architecture cinématique de la machine a constitué une étape clé. Après analyse des différents besoins fonctionnels, notre choix s'est porté sur une **architecture cartésienne**. 
 
-La modélisation CAO ci-dessous (*Figure 1*) illustre le design retenu, mettant en évidence une configuration surélevée (en hauteur) afin d'optimiser l'espace de travail et l'accès aux différents composants.
+La modélisation CAO ci-dessous illustre le design retenu, mettant en évidence une configuration surélevée (en hauteur) afin d'optimiser l'espace de travail et l'accès aux différents composants.
 
 ![AxeR1](../images/Conception/AxeR1.png)
 

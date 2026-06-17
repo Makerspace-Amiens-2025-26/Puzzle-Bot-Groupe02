@@ -15,7 +15,7 @@ L'objectif n'était pas encore de développer chaque module en détail, mais plu
 Cette réflexion a permis de découper le projet en plusieurs briques indépendantes, chacune ayant un rôle précis. 
 
 Le fonctionnement global imaginé est le suivant : 
-
+```
 Caméra 
    ↓ 
 OpenCV 
@@ -33,7 +33,7 @@ Envoi via Serial
 GRBL (Arduino) 
    ↓ 
 Moteurs 
- 
+```:---:
 
 ## 1. Acquisition de l'image (caméra) 
 
