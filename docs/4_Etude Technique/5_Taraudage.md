@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 1
-parent: Autre
+parent: Études et choix techniques
 title: Taraudage d’un profilé en aluminium
 ---
 

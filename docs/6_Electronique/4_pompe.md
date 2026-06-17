@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 4
+nav_order: 5
 parent: Electronique
 title: La pompe
 ---
@@ -18,8 +18,9 @@ Au début du projet, la commande de la pompe à vide et de l’électrovanne dev
 Face à cette contrainte, nous avons décidé de concevoir une carte de commande dédiée utilisant des MOSFET de puissance. Cette solution permet de commuter directement l’alimentation 12 V avec des pertes très faibles, garantissant ainsi que la pompe et l’électrovanne reçoivent la tension nécessaire à leur fonctionnement. La réalisation de cette carte personnalisée a donc permis d’obtenir une commande plus efficace, plus fiable et mieux adaptée aux exigences du système d’aspiration du Puzzle Bot.
 
 # Les MOSFET de puissance
-| :---: |
+
 | ![mosfet](../images/electronique/mosftet.jpg) | 
+| :---: |
 | **MOSFET AO3400A** |
 
 Les MOSFET constituent les composants principaux du circuit de commande de la pompe à vide et de l’électrovanne. Leur rôle est de servir d’interrupteurs électroniques capables de commuter une charge alimentée en 12 V à partir d’un signal de commande provenant de l’Arduino en 5 V. Cette solution permet de piloter des actionneurs consommant davantage de courant que ce que les sorties numériques de l’Arduino peuvent fournir directement.
