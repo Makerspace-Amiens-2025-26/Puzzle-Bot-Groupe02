@@ -45,9 +45,8 @@ Pour chaque image, OpenCV recherche automatiquement les intersections internes d
 
 Le script associe deux ensembles de points : 
 
-Réel : coordonnées théoriques du damier  
-
-Image caméra : coordonnées correspondantes en pixels  
+* Réel : coordonnées théoriques du damier  
+* Image caméra : coordonnées correspondantes en pixels  
 
  
 

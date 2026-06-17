@@ -20,19 +20,16 @@ Chaque moteur pas-à-pas est piloté par un driver A4988. Le réglage du courant
 
 ### 1.1 Réglage de l'intensité des drivers A4988 
 
-Objectifs du bridage en courant : 
+**Objectifs du bridage en courant :**
 
-prévenir la surchauffe thermique du driver A4988 
+* prévenir la surchauffe thermique du driver A4988 
+* atténuer les vibrations du moteur pour un mouvement fluide 
+* protéger l'intégrité physique des moteurs et des pistes électroniques. 
 
-atténuer les vibrations du moteur pour un mouvement fluide 
+**Symptômes d'un mauvais réglage :** 
 
-protéger l'intégrité physique des moteurs et des pistes électroniques. 
-
-Symptômes d'un mauvais réglage : 
-
-Sous-intensité : Le moteur vibre ou fait du bruit mais ne tourne pas (perte de couple). 
-
-Sur-intensité : Surchauffe immédiate du driver, déclenchement de la sécurité thermique et risque de détérioration définitive du matériel. 
+* Sous-intensité : Le moteur vibre ou fait du bruit mais ne tourne pas (perte de couple). 
+* Sur-intensité : Surchauffe immédiate du driver, déclenchement de la sécurité thermique et risque de détérioration définitive du matériel. 
 
 ### 1.2 Pin EN - Enable 
 
@@ -44,9 +41,10 @@ Particularité matérielle du projet : dans notre configuration matérielle, la 
 
 L'initialisation dans le code Arduino a donc été adaptée manuellement : 
 
+```
 pinMode(enablePin, OUTPUT); 
 digitalWrite(enablePin, HIGH);  
- 
+ ```
 
 ## 2. Contrôle des Moteurs Pas-à-Pas (Axes X, Y, Z) 
 
@@ -56,11 +54,9 @@ L'objectif de cette étape est de valider le comportement des trois axes princip
 
 Pour tester la fonctionnalité des moteurs, la bibliothèque AccelStepper a été choisie. Elle permet : 
 
-une gestion des profils d'accélération 
-
-un contrôle de la vitesse maximale 
-
-la capacité d'exécuter des mouvements multi-axes. 
+* une gestion des profils d'accélération 
+* un contrôle de la vitesse maximale 
+* la capacité d'exécuter des mouvements multi-axes. 
 
 ### 2.2 Code de test des axes 
 
@@ -148,10 +144,8 @@ G1 Z-1 : Descente de l'axe Z.
 
 Pour s'intégrer au flux d'instructions des moteurs, l'actionneur du servo est piloté par des fonctions (commandes M) associées au paramètre S (représentant l'angle de 0° à 180°) : 
 
-M3 S0 : Position fermée (0°). 
-
-M3 S90 : Position intermédiaire (90°). 
-
-M3 S180 : Position ouverte maximale (180°). 
+* M3 S0 : Position fermée (0°). 
+* M3 S90 : Position intermédiaire (90°). 
+* M3 S180 : Position ouverte maximale (180°). 
 
 Cette standardisation permet d'envoyer un script simple combinant déplacement et manipulation (ex: G1 X100 Y50   G1 Z-1  M3 S180). 

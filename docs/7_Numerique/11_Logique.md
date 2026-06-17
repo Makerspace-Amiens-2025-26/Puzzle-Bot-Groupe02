@@ -17,9 +17,8 @@ Le fonctionnement du programme est divisé en deux grandes phases.
 
 Dans un premier temps, la caméra est utilisée pour enregistrer : 
 
-la position finale souhaitée des pièces  
-
-la position actuelle des pièces à déplacer. 
+* la position finale souhaitée des pièces  
+* la position actuelle des pièces à déplacer. 
 
 Ces informations sont stockées en mémoire et serviront de base à toute la résolution. 
 
@@ -31,13 +30,10 @@ Une fois les coordonnées enregistrées, la caméra n'est plus nécessaire.
 
 Une fois les positions enregistrées, le programme compare pour chaque pièce : 
 
-sa position actuelle  
-
-sa position cible  
-
-son orientation actuelle  
-
-son orientation attendue. 
+* sa position actuelle  
+* sa position cible  
+* son orientation actuelle  
+* son orientation attendue. 
 
 Pour chaque pièce, le programme génère une séquence complète de type Pick-and-Place avec correction d'orientation. 
 

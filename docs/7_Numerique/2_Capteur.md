@@ -18,15 +18,12 @@ L'objectif était de mettre en place une procédure de homing, couramment utilis
 
 Lors de la mise sous tension, les moteurs pas-à-pas connaissent leur position relative mais ne savent pas où ils se trouvent physiquement dans l'espace. 
 
-Les capteurs de fin de course permettent de : 
+**Les capteurs de fin de course permettent de :**
 
-définir une origine mécanique fiable  
-
-recalibrer automatiquement la position de la machine  
-
-éviter les collisions avec les limites physiques  
-
-garantir un positionnement répétable d'une session à l'autre.  
+* définir une origine mécanique fiable  
+* recalibrer automatiquement la position de la machine  
+* éviter les collisions avec les limites physiques  
+* garantir un positionnement répétable d'une session à l'autre.  
 
 Sans procédure de homing, chaque redémarrage impose de repositionner manuellement la machine ou de supposer que sa position est connue. 
 
@@ -36,13 +33,11 @@ Sans procédure de homing, chaque redémarrage impose de repositionner manuellem
 
 Les capteurs ont été ajoutés sur les axes de déplacement (X et Y). 
 
-Principe de fonctionnement : 
+**Principe de fonctionnement :**
 
-l'axe se déplace lentement vers son origine 
-
-lorsque le capteur est activé, le mouvement s'arrête 
-
-la position courante est enregistrée comme position de référence (0,0).  
+* l'axe se déplace lentement vers son origine 
+* lorsque le capteur est activé, le mouvement s'arrête 
+* la position courante est enregistrée comme position de référence (0,0).  
 
  
 
@@ -50,7 +45,7 @@ la position courante est enregistrée comme position de référence (0,0).
 
 La procédure de homing est exécutée au démarrage de la machine. 
 
-Exemple simplifié : 
+**Exemple simplifié :** 
 ```
 // Tant que le capteur n'est pas activé (HIGH) 
 
@@ -78,11 +73,9 @@ Le problème est apparu immédiatement après l'ajout des endstops, ce qui a ori
 
 Plusieurs pistes ont été étudiées : 
 
-erreur de câblage  
-
-conflit logiciel avec la gestion des moteurs  
-
-mauvais état lu sur les entrées de fin de course.  
+* erreur de câblage  
+* conflit logiciel avec la gestion des moteurs  
+* mauvais état lu sur les entrées de fin de course.  
 
 Après plusieurs essais, nous avons conclu que l'intégration de capteurs physiques n'apportait pas de pas de bénéfice significatif pour le positionnement spatial de la machine dans le cadre de ce projet. 
 

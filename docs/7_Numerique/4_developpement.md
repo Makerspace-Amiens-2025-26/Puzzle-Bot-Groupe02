@@ -19,15 +19,12 @@ Cette phase a notamment permis de mettre en évidence plusieurs contraintes rée
 
 Lors des premiers essais de capture, un phénomène de distorsion a été observé. La caméra utilisée possède un objectif grand angle permettant de visualiser une large zone de travail, mais ce type d'optique déforme l'image : les lignes qui sont physiquement droites peuvent apparaître légèrement courbées et les dimensions observées varient selon la position dans l'image. 
 
-Cette déformation peut entraîner : 
+**Cette déformation peut entraîner :** 
 
-des erreurs de positionnement  
-
-des mesures incorrectes  
-
-des difficultés pour calculer précisément les coordonnées des pièces  
-
-une mauvaise estimation des distances sur le plateau. 
+* des erreurs de positionnement  
+* des mesures incorrectes  
+* des difficultés pour calculer précisément les coordonnées des pièces  
+* une mauvaise estimation des distances sur le plateau. 
 
 Il a été nécessaire d'intégrer une étape de correction géométrique afin de travailler sur une représentation plus fidèle de la réalité. 
 
@@ -55,13 +52,11 @@ Le projet utilise les fonctionnalités de détection ArUco intégrées à OpenCV
 
 Les marqueurs ArUco sont des motifs visuels carrés contenant un identifiant unique. 
 
-Chaque marqueur possède : 
+**Chaque marqueur possède :** 
 
-un identifiant unique  
-
-une orientation détectable  
-
-une position mesurable dans l'image. 
+* un identifiant unique  
+* une orientation détectable  
+* une position mesurable dans l'image. 
 
 La détection est réalisée automatiquement par OpenCV à partir des photographies prises par la caméra. 
 
@@ -74,11 +69,9 @@ Chaque pièce du puzzle possède son propre marqueur ArUco. Cette approche perme
 
 Lors de l'analyse de l'image, le programme est capable de connaître directement : 
 
-quelle pièce est observée  
-
-où elle se trouve  
-
-dans quel sens elle est orientée. 
+* quelle pièce est observée  
+* où elle se trouve  
+* dans quel sens elle est orientée. 
 
 Cette méthode est beaucoup plus robuste qu'une simple reconnaissance de forme. 
 
@@ -90,15 +83,11 @@ Cette méthode est beaucoup plus robuste qu'une simple reconnaissance de forme.
 
 En plus des marqueurs présents sur les pièces, plusieurs marqueurs ArUco de référence sont placés directement sur le plateau. Leur rôle est de fournir un repère fixe à la machine. 
 
-Ces marqueurs permettent : 
+**Ces marqueurs permettent :** 
 
-de définir le système de coordonnées  
-
-de connaître l'orientation du plateau  
-
-de convertir les coordonnées de l'image en coordonnées réelles. 
-
- 
+* de définir le système de coordonnées  
+* de connaître l'orientation du plateau  
+* de convertir les coordonnées de l'image en coordonnées réelles. 
 
 ## 4. Mémorisation des positions des pièces  
 
@@ -106,16 +95,15 @@ Une fois tous les marqueurs détectés, le programme construit une représentati
 
 Pour chaque pièce, les informations suivantes sont enregistrées : 
 
-Pièce 5 
-Position : X = 145 mm  
-Position : Y = 210 mm 
-Rotation : 45° 
+**Pièce 5 :** 
+* Position : X = 145 mm  
+* Position : Y = 210 mm 
+* Rotation : 45° 
 
 Ces données sont extraites : 
 
-une première fois sur l'image du puzzle résolu  
-
-une seconde fois sur l'image du puzzle mélangé (à résoudre). 
+* une première fois sur l'image du puzzle résolu  
+* une seconde fois sur l'image du puzzle mélangé (à résoudre). 
 
 La comparaison des deux images permet ensuite de déterminer où doivent être placées chaque pièce. 
 

@@ -43,9 +43,8 @@ Son rôle est limité à une phase d'acquisition au démarrage.
 
 Deux photographies sont réalisées : 
 
-une image du puzzle entièrement résolu  
-
-une image du puzzle dans son état initial (pièces mélangées).  
+* une image du puzzle entièrement résolu  
+* une image du puzzle dans son état initial (pièces mélangées).  
 
 Ces deux images servent de référence pour l'ensemble de l'algorithme. 
 
@@ -59,19 +58,14 @@ La caméra agit donc comme un outil de mesure et de calibration au démarrage du
 
 Les images récupérées par la caméra sont ensuite analysées à l'aide de OpenCV. 
 
-OpenCV fournit de nombreux outils permettant : 
+**OpenCV fournit de nombreux outils permettant :**
 
-la lecture des flux vidéo 
-
-le traitement d'image en temps réel 
-
-la détection de formes 
-
-le filtrage d'images 
-
-la détection de marqueurs 
-
-le calcul de positions dans l'espace. 
+* la lecture des flux vidéo 
+* le traitement d'image en temps réel 
+* la détection de formes 
+* le filtrage d'images 
+* la détection de marqueurs 
+* le calcul de positions dans l'espace. 
 
 Dans le cadre du Puzzle Bot, OpenCV sert principalement à interpréter ce que voit la caméra afin de transformer une image en informations exploitables par le programme. 
 
@@ -83,13 +77,11 @@ L'étape suivante consiste à détecter des marqueurs ArUco présents sur la zon
 
 Les marqueurs ArUco sont des motifs carrés ressemblant à des QR codes simplifiés. 
 
-Chaque marqueur possède : 
+**Chaque marqueur possède :**
 
-un identifiant unique  
-
-une orientation identifiable  
-
-une position mesurable dans l'image. 
+* Un identifiant unique  
+* une orientation identifiable  
+* une position mesurable dans l'image. 
 
 Grâce à ces marqueurs, le système peut connaître précisément où se trouve une pièce  et comment est orienté un élément. 
 
@@ -101,10 +93,10 @@ Une fois les marqueurs détectés, le programme calcule leur position dans l'esp
 
 Le système peut ainsi déterminer : 
 
-Pièce 4 : 
-X = 154 mm 
-Y = 86 mm 
-Rotation = 90° 
+**Pièce 4 :** 
+* X = 154 mm 
+* Y = 86 mm 
+* Rotation = 90° 
 
 Ces données deviennent ensuite la référence utilisée pour tous les déplacements du robot. 
 
@@ -114,13 +106,11 @@ Ces données deviennent ensuite la référence utilisée pour tous les déplacem
 
 Une fois la position de chaque pièce connue, le robot doit être capable de déterminer les actions à effectuer. C'est le rôle de l'algorithme de résolution. Ce module constitue le "cerveau" du Puzzle Bot. 
 
-Ses missions sont : 
+**Ses missions sont :** 
 
-analyser l'état actuel du puzzle  
-
-identifier les déplacements nécessaires  
-
-éviter les mouvements inutiles. 
+* analyser l'état actuel du puzzle  
+* identifier les déplacements nécessaires  
+* éviter les mouvements inutiles. 
 
 L'algorithme produit finalement une liste d'actions à réaliser. 
 
@@ -158,13 +148,11 @@ G0 X120 Y80
 G1 Z-1 
 M3 S90 
 
-Chaque instruction décrit une action : 
+**Chaque instruction décrit une action :** 
 
-déplacement des axes X et Y : pour aller chercher une pièce 
-
-mouvement vertical de l’axe Z : pour la prise ou le dépôt d’une pièce 
-
-activation du servomoteur : pour la rotation des pièces.  
+* déplacement des axes X et Y : pour aller chercher une pièce 
+* mouvement vertical de l’axe Z : pour la prise ou le dépôt d’une pièce 
+* activation du servomoteur : pour la rotation des pièces.  
 
  
 
@@ -175,9 +163,9 @@ Une fois généré, le G-code est envoyé à l'Arduino via une connexion série 
 La communication utilise le protocole Serial. 
 
 Exemple : 
-
+```
 ser.write(b"G0 X120 Y80\n") 
-
+```
 Cette étape agit comme un pont entre l'intelligence du système exécutée sur l'ordinateur et la partie électronique. L'ordinateur effectue tous les calculs complexes tandis que l'Arduino se concentre sur l'exécution. 
 
  
@@ -188,13 +176,10 @@ L'Arduino contient GRBL, un firmware spécialisé dans l'interprétation du G-co
 
 GRBL reçoit les commandes envoyées par l'ordinateur et se charge de : 
 
-synchroniser les axes  
-
-générer les impulsions (STEP/DIR)  
-
-gérer les accélérations  
-
-contrôler les moteurs. 
+* synchroniser les axes  
+* générer les impulsions (STEP/DIR)  
+* gérer les accélérations  
+* contrôler les moteurs. 
 
  
 
@@ -202,15 +187,12 @@ contrôler les moteurs.
 
 La dernière étape de la chaîne est l'exécution mécanique. 
 
-Une fois les commandes interprétées : 
+**Une fois les commandes interprétées :** 
 
-les drivers reçoivent les impulsions  
-
-les moteurs pas-à-pas tournent  
-
-les axes se déplacent  
-
-le servomoteur effectue l'action demandée. 
+* les drivers reçoivent les impulsions  
+* les moteurs pas-à-pas tournent  
+* les axes se déplacent  
+* le servomoteur effectue l'action demandée. 
 
  
 
@@ -246,11 +228,7 @@ GRBL
 
 Drivers moteurs 
 
- 
-
 Cette séparation permet de développer chaque partie indépendamment. 
-
- 
 
 Cette réflexion constitue la fondation du Puzzle Bot et servira de référence pour l'ensemble des développements futurs. 
 

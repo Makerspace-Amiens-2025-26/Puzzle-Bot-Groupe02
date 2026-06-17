@@ -20,13 +20,11 @@ En mode relatif, activé par la commande G91, chaque coordonnée correspond à u
 Le système de vision par caméra fournit directement des coordonnées absolues. Par exemple, après analyse de l'image, une pièce peut être localisée en (135,82) et sa position cible en (55,210). 
 
 L'utilisation du mode absolu permet alors d'envoyer directement les commandes : 
-
+```
 G1 X135 Y82 
-
 puis 
-
 G1 X55 Y210 
-
+```
 À l'inverse, en mode relatif, le programme devrait calculer avant chaque déplacement les écarts entre la position courante et la position cible. Le mode relatif implique donc des calculs supplémentaires et nécessite un suivi permanent de la position de la tête du robot. 
 
 L’utilisation du mode absolue est plus adaptée puisque chaque ordre correspond directement à une position géométrique fournie par le système de vision. Les commandes étant indépendantes les unes des autres, le risque d'erreurs liées à l'accumulation d'imprécisions est réduit. 

@@ -36,13 +36,11 @@ L'idée semblait intéressante car elle permettait de repartir d'un point connu 
 
 Après analyse, il est apparu que le projet travaille principalement en coordonnées absolues. 
 
-Chaque pièce possède : 
+**Chaque pièce possède :** 
 
-une position actuelle  
-
-une position cible  
-
-des coordonnées calculées directement à partir des données issues de la caméra. 
+* une position actuelle  
+* une position cible  
+* des coordonnées calculées directement à partir des données issues de la caméra. 
 
 Par exemple : 
 
@@ -60,19 +58,14 @@ Le robot n'a donc pas besoin de connaître son dernier déplacement, il sait dir
 
 Ce constat a conduit à s’interroger sur l’intérêt d’un retour systématique à l’origine. 
 
-Plusieurs inconvénients ont été identifiés : 
+**Plusieurs inconvénients ont été identifiés :**
 
-augmentation du temps de résolution  
-
-multiplication des déplacements inutiles  
-
-usure mécanique supplémentaire  
-
-risque d'introduire de nouvelles erreurs de positionnement. 
+* augmentation du temps de résolution  
+* multiplication des déplacements inutiles  
+* usure mécanique supplémentaire  
+* risque d'introduire de nouvelles erreurs de positionnement. 
 
 Le choix final a donc été de supprimer cette étape. Le robot se déplace directement d'une action à l'autre en utilisant les coordonnées absolues calculées lors de l'analyse du puzzle. 
-
- 
 
 ## 2. Augmenter la résolution de l'image 
 
@@ -82,9 +75,8 @@ L'objectif était simple : plus une image contient de pixels, plus la position d
 
 Cependant, elle présentait également certains inconvénients : 
 
-augmentation du temps de traitement 
-
-consommation mémoire plus importante. 
+* augmentation du temps de traitement 
+* consommation mémoire plus importante. 
 
 Même si cette approche pouvait améliorer légèrement les résultats, elle n'a finalement pas été retenue. 
 
@@ -94,13 +86,10 @@ Même si cette approche pouvait améliorer légèrement les résultats, elle n'a
 
 Lors d'une seule capture, plusieurs phénomènes peuvent perturber les résultats : 
 
-bruit du capteur  
-
-variations lumineuses  
-
-légers mouvements de la caméra  
-
-erreurs de détection ponctuelles. 
+* bruit du capteur  
+* variations lumineuses  
+* légers mouvements de la caméra  
+* erreurs de détection ponctuelles. 
 
 Pour réduire ces effets, le programme ne s'appuie pas sur une image unique, il réalise plusieurs captures consécutives. 
 
@@ -134,4 +123,4 @@ Le même principe est appliqué aux coordonnées X, Y et aux angles de rotation.
 
 Grâce à ces optimisations, le système obtient des coordonnées plus stables et plus fiables tout en réduisant les déplacements inutiles de la machine. Cela améliore à la fois la précision du positionnement et l'efficacité globale de la résolution du puzzle. 
 
- 
+ ![Numerique](../images/Numerique/numerique.png)
