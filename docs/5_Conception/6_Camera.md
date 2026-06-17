@@ -30,7 +30,7 @@ La liaison haute qui ferme le portique de la caméra utilise deux supports impri
 | **Grand support supérieur** | **Petit support supérieur** |
 
 ## 3. Spécification du support de la caméra
-La caméra est installée au centre de cette structure dédiée (Camera2.png). Son intégration se fait en deux étapes simples et robustes :
+La caméra est installée au centre de cette structure dédiée (Camera2.png). Son intégration se fait en deux étapes simples et robustes:
 
 * Liaison châssis / support : La platine de fixation imprimée en 3D vient s'ancrer solidement sur le profilé d'aluminium haut de la machine à l'aide de vis et d'écrous en T.
 
