@@ -36,28 +36,8 @@ Une fois les positions enregistrées, le programme compare pour chaque pièce :
 * son orientation attendue. 
 
 Pour chaque pièce, le programme génère une séquence complète de type Pick-and-Place avec correction d'orientation. 
-
-Aller chercher la pièce (X,Y) 
-↓ 
-Descendre l'axe Z 
-↓ 
-Prendre la pièce (pompe) 
-↓ 
-Remonter l'axe Z  
-↓ 
-Déplacer vers la position cible (X,Y) 
-↓ 
-Effectuer la rotation nécessaire (servomoteur) 
-↓ 
-Descendre l'axe Z 
-↓ 
-Déposer la pièce (électrovanne) 
-↓ 
-Remonter l'axe Z 
-↓ 
-Réinitialiser le servomoteur 
- 
-
-  ![Numerique2](../images/Numerique/numerique2.png)
+  | :---: |
+  | Pick and Place |
+  | ![Numerique2](../images/Numerique/numerique2.png) |
 
   ![Numerique4](../images/Numerique/numerique4.png)
