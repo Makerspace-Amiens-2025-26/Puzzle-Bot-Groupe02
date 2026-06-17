@@ -31,7 +31,7 @@ Le déplacement longitudinal de l’axe X repose sur deux profilés aluminium pa
 L'axe transversal Y est entraîné de manière classique par un unique moteur pas-à-pas. Ce dernier est dimensionné pour déplacer le chariot supportant l'axe vertical Z, l'axe de rotation, ainsi que la pompe.
 
 
-## Choix d'un moteur pas-à-pas face aux contraintes de masse pour l'Axe Z
+## Choix d'un moteur pas-à-pas face aux contraintes de masse pour l'Axe Z.
 
 ​L'action de l'axe Z se limite à une simple action : descendre pour saisir une pièce ou poser, puis remonter pour la surélever lors du transfert ou aller vers une autre pièce. Si un servomoteur classique aurait peut-être pu suffire dans certains cas, nous avons opté pour un moteur pas-à-pas.
 ​Pour justification, la charge embarquée sur cet axe est importante. Le chariot vertical doit supporter son propre poids, celui de la pompe, ainsi que le servomoteur de l'axe rotatif. Un servomoteur standard aurait manqué de couple et risqué de ne pas effectuer correctement l'action. Le moteur pas-à-pas nous garantit ce couple nécessaire pour déplacer cette masse sans difficulté.
