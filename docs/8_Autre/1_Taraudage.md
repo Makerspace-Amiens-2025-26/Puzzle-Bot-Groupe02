@@ -26,7 +26,9 @@ Avant de commencer le taraudage, il est recommandé d’appliquer de l’huile d
 
 ## Étape 4 : Premier passage de taraud
 
-![Taraudage](../images/Conception/Taraudage.jpeg)
+| ![Taraudage](../images/Conception/taurodage3.png) |
+| :---: |
+| Taraud |
 
 Le taraudage débute avec le premier taraud, appelé taraud ébaucheur. Plus fin que les suivants, il permet d’amorcer le filetage dans le trou.
 
