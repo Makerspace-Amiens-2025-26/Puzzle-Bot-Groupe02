@@ -7,7 +7,7 @@ title: Axe Z
 
 # Conception de l'Axe Z
 
-![AxeZ2](../images/Conception/AxeZ2.png)
+![image5](../images/Conception/image5.png)
 
 ## 1. Configuration de base de l'axe Z
 
@@ -23,9 +23,11 @@ La base carré des rondelles va se mettre du coté de la pièce afin que les for
 * Le support servo/pompe: Cette pièce vient s'installer sur la pièce centrale du chariot par 2 vis qui nous assure que les pièces soient bien fixées entre elles et droites.
 Cette pièce possède un espace pour fixer le servo moteur de l'Axe R ainsi que l'emplacement dédié à la pompe qui vient s'y glisser. La disposition de ces emplacements est très importante, elle permet à la camera de pouvoir identifier le plus grand espace possible sur le plateau.
 
-| ![AxeY3](../images/Conception/AxeZ3.png) | ![AxeZ4](../images/Conception/AxeZ4.png) |
-| :---: | :---: |
-| **Ancrage de courroie** | **Fin de profilé** |
+| ![AxeY3](../images/Conception/image1.png) | ![AxeZ4](../images/Conception/image2.png) | ![AxeZ4](../images/Conception/image3.png) | ![AxeZ4](../images/Conception/image4.png) |
+| :---: | :---: | :---: | :---: |
+| **Gallet** | **Rondelle** | **Pièce central** | **Le support servo/pompe** |
+
+
 
 
 ## 3. Spécification de la pièce maîtresse 
